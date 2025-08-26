@@ -1,0 +1,129 @@
+/*stylesheet*/
+body {
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    color: white;
+    text-shadow: 0px 0px 4px black;
+    height: 343px;
+    background: url(img/pepsi-sign.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+h1 {
+    font-size: 32px;
+    background: #f35a1380;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2 {
+    width: 700px;
+    font-size: 19px;
+    background:  #617379c1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.to-do {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2d291c;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.activity-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.act-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activity-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.activity-desc {
+    margin-top: -2px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 236px;
+}
+
+.tour-guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #617379;
+    height: 394px;
+}
+
+.card {
+    width: 400px;
+    height: 300px;
+    background: #bdb5ab;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-content {
+    padding-right: 10px;
+    color: #2d291c;
+}
+
+#tour-img {
+    height: 200px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 15px;
+}
+
+#tour-heading {
+    font-size: 24px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+#author {
+    font-weight: 700;
+}
